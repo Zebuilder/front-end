@@ -5,14 +5,14 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class AIProcTest 
+public class FrontEndTest 
 {
-    AIProc aiProc = new AIProc();
+    FrontEnd frontEnd = new FrontEnd();
 
     @Test
     public void testApp()
     {
-        assertEquals("Hello world from AIProc", aiProc.greet("world"));
+        assertEquals("Hello world from FrontEnd", frontEnd.greet("world"));
     }
 
     @Test

@@ -4,14 +4,14 @@ package io.zolaton;
  * Hello world!
  *
  */
-public class AIProc 
+public class FrontEnd 
 {
     public static void main(String[] args)
     {
-        System.out.println(new AIProc().greet("world"));
+        System.out.println(new FrontEnd().greet("world"));
     }
 
     public String greet(String name) {
-        return "Hello " + name + " from AIProc";
+        return "Hello " + name + " from FrontEnd";
     }
 }
