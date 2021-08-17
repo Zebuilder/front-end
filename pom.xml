@@ -30,7 +30,7 @@
     </dependency>
     <dependency>
       <groupId>io.zolaton</groupId>
-      <artifactId>ai-processor</artifactId>
+      <artifactId>back-end</artifactId>
       <version>0.2-SNAPSHOT</version>
     </dependency>
     <dependency>
